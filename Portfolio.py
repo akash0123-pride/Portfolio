@@ -49,7 +49,10 @@ if page == "Home":
     st.write("📍 From Chhatapur, India")
     st.write("🔗 [LinkedIn](https://www.linkedin.com/in/akash-pathak-44a082212) | [GitHub](https://github.com/akash0123-pride)")
     st.markdown(
-        "<h3 style='color: #FFD700; font-weight: bold;'>📄 <a href='https://drive.google.com/file/d/1zfMTKiAvqE5uA0tvJwtWZOinsdrkwSAw/view?usp=sharing' target='_blank' style='color: #FFD700; text-decoration: none;'>Resume</a></h3>",
+        "<h3 style='color: red; font-weight: bold;'>"
+        "<a href='https://drive.google.com/file/d/1zfMTKiAvqE5uA0tvJwtWZOinsdrkwSAw/view?usp=sharing' "
+        "target='_blank' style='color: red; text-decoration: none;'>Resume</a>"
+        "</h3>",
         unsafe_allow_html=True
     )
 
