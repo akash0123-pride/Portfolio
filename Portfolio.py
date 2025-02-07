@@ -101,7 +101,7 @@ elif page == "Certifications":
     st.title("📜 Certifications")
     certs = [
         "Data Science A-Z (Udemy)", "Machine Learning with Python (FreeCodeCamp)", 
-        "Applied Data Science with Python (IBM)", "Python for Data Science & ML (Udemy)"
+        "Data Analysis Using Python Issued (IBM)","Python for Data Science (IBM)", "Python for Data Science & ML (Udemy)"
     ]
     for cert in certs:
         st.write(f"✅ {cert}")
