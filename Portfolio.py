@@ -93,7 +93,7 @@ elif page == "Skills":
     st.title("📊 Skills")
     skills = {"Python": 90, "Machine Learning": 80, "SQL": 90, "Data Analytics": 85, "AWS": 75, "Tableau": 85}
     df = pd.DataFrame(list(skills.items()), columns=["Skill", "Proficiency"])
-    fig = px.bar(df, x='Proficiency', y='Skill', orientation='h', color='Proficiency', color_continuous_scale='Blues')
+    fig = px.bar(df, x='Proficiency', y='Skill', orientation='h', color='Proficiency', color_continuous_scale='Blues',range_color=[65, max(df["Proficiency"])
     st.plotly_chart(fig, use_container_width=True)
 
 # Certifications Section
