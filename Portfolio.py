@@ -52,7 +52,7 @@ if page == "Home":
 # Education Section
 elif page == "Education":
     st.title("🎓 Education")
-    st.write("### Bachelor of Engineering in Computer Science & Data Science")
+    st.write("### Bachelor of Technology in Computer Science Enginnering-Data Science")
     st.write("Oriental Institute of Science and Technology, Bhopal (2020 - 2024)")
     st.write("CGPA: 8.32")
     st.write("### Intermediate")
@@ -91,7 +91,7 @@ elif page == "Projects":
 # Skills Section with Graph
 elif page == "Skills":
     st.title("📊 Skills")
-    skills = {"Python": 90, "Machine Learning": 85, "SQL": 80, "Data Analytics": 75, "AWS": 70, "Tableau": 65}
+    skills = {"Python": 90, "Machine Learning": 80, "SQL": 90, "Data Analytics": 85, "AWS": 80, "Tableau": 85}
     df = pd.DataFrame(list(skills.items()), columns=["Skill", "Proficiency"])
     fig = px.bar(df, x='Proficiency', y='Skill', orientation='h', color='Proficiency', color_continuous_scale='Blues')
     st.plotly_chart(fig, use_container_width=True)
