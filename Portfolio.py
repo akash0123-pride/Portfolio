@@ -48,6 +48,8 @@ if page == "Home":
     st.write("#### Passionate about AI, Data Science, and solving real-world problems.")
     st.write("📍 From Chhatapur, India")
     st.write("🔗 [LinkedIn](https://www.linkedin.com/in/akash-pathak-44a082212) | [GitHub](https://github.com/akash0123-pride)")
+    st.markdown("[📄 View My Resume](https://drive.google.com/file/d/1zfMTKiAvqE5uA0tvJwtWZOinsdrkwSAw/view?usp=sharing)", unsafe_allow_html=True)
+
 
 # Education Section
 elif page == "Education":
